@@ -3,5 +3,6 @@ sphinx_rtd_theme
 sphinx-tabs
 sphinx-copybutton
 sphinx-new-tab-link
+sphinx-subfigure
 click-extra[sphinx]
 myst-parser

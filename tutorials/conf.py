@@ -19,6 +19,7 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_tabs.tabs', 
     'sphinx_copybutton',
+    'sphinx_subfigure',
     'click_extra.sphinx',
     'sphinx_new_tab_link',  # external links open in new tab
 ]
@@ -33,6 +34,10 @@ source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
 }
+
+# It is necessary the following definition to number sections and figures
+numfig = True
+nufig_secnum_depth = 2
 
 copybutton_prompt_text = "(venv_frida) $ "
 copybutton_only_copy_prompt_lines = False

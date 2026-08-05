@@ -33,6 +33,14 @@ clean:
 %: Makefile
 ifneq ($(ON_GITHUB),true)
 	@echo "Running preliminary scripts..."
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders1.sh
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders2.sh
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders3.sh
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders4.sh
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders5.sh
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders6.sh
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders7.sh
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_helps.sh
 	tutorials/ifu_simulator/files/run_extract_blocks_ansi_version.sh
 	tutorials/ifu_simulator/files/run_extract_blocks_ansi_helps.sh
 else
