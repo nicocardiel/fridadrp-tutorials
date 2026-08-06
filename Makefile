@@ -40,6 +40,8 @@ ifneq ($(ON_GITHUB),true)
 	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders5.sh
 	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders6.sh
 	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_borders7.sh
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_traces1.sh
+	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_find_traces2.sh
 	tutorials/auxiliary_tools/initial_slice_boundaries/files/run_extract_blocks_ansi_helps.sh
 	tutorials/ifu_simulator/files/run_extract_blocks_ansi_version.sh
 	tutorials/ifu_simulator/files/run_extract_blocks_ansi_helps.sh
